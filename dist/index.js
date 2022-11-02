@@ -11,6 +11,7 @@ var _reactTweenState = require('react-tween-state');
 var _reactTweenState2 = _interopRequireDefault(_reactTweenState);
 
 var _NativeButton = require('./NativeButton');
+var _ViewPropTypes = require('deprecated-react-native-prop-types');
 
 var _NativeButton2 = _interopRequireDefault(_NativeButton);
 
@@ -123,7 +124,7 @@ var Swipeout = (0, _createReactClass2.default)({
     onClose: _propTypes2.default.func,
     right: _propTypes2.default.array,
     scroll: _propTypes2.default.func,
-    style: (_reactNative.ViewPropTypes || _reactNative.View.propTypes).style,
+    style: _ViewPropTypes.style,
     sensitivity: _propTypes2.default.number,
     buttonWidth: _propTypes2.default.number,
     disabled: _propTypes2.default.bool
